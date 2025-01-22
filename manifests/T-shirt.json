@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/dressing-dataset/manifests/T-shirt.json",
+  "@type" : "sc:Manifest",
+  "label" : "T-shirt",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "T-shirt",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Samira",
+  "sequences" : [ {
+    "@id" : "http://6713c054-cde8-4c80-a564-43458122db49",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://18959cd1-c673-4e8a-a997-d807f4f7d144",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 800,
+      "width" : 800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://396ea876-dbf3-436a-9bbb-eec405086ebf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/dressing-dataset/images/T-shirt/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/dressing-dataset/images/T-shirt",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 800,
+          "width" : 800
+        },
+        "on" : "http://18959cd1-c673-4e8a-a997-d807f4f7d144"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
