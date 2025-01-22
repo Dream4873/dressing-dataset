@@ -250,6 +250,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://Dream4873.github.io/dressing-dataset/images/Dress/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Dress"
+                ]
+            },
+            "height": 1280,
+            "width": 960,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/dressing-dataset/images/Dress/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/dressing-dataset/images/Dress/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/dressing-dataset/images/Dress/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 30,
+                                                "height": 40
+                                            },
+                                            {
+                                                "width": 60,
+                                                "height": 80
+                                            },
+                                            {
+                                                "width": 120,
+                                                "height": 160
+                                            },
+                                            {
+                                                "width": 240,
+                                                "height": 320
+                                            },
+                                            {
+                                                "width": 480,
+                                                "height": 640
+                                            },
+                                            {
+                                                "width": 960,
+                                                "height": 1280
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 960,
+                                        "@id": "https://Dream4873.github.io/dressing-dataset/images/Dress",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1280,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/dressing-dataset/images/Dress/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
