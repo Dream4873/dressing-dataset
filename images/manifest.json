@@ -169,6 +169,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://Dream4873.github.io/dressing-dataset/images/Pullover/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Pullover"
+                ]
+            },
+            "height": 1315,
+            "width": 1406,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/dressing-dataset/images/Pullover/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/dressing-dataset/images/Pullover/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/dressing-dataset/images/Pullover/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 44,
+                                                "height": 42
+                                            },
+                                            {
+                                                "width": 88,
+                                                "height": 83
+                                            },
+                                            {
+                                                "width": 176,
+                                                "height": 165
+                                            },
+                                            {
+                                                "width": 352,
+                                                "height": 329
+                                            },
+                                            {
+                                                "width": 703,
+                                                "height": 658
+                                            },
+                                            {
+                                                "width": 1406,
+                                                "height": 1315
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1406,
+                                        "@id": "https://Dream4873.github.io/dressing-dataset/images/Pullover",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1315,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/dressing-dataset/images/Pullover/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
