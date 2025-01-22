@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/dressing-dataset/manifests/Sneaker.json",
+  "@type" : "sc:Manifest",
+  "label" : "Sneaker",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Sneaker",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Samira",
+  "sequences" : [ {
+    "@id" : "http://4eeaea0b-db90-4c6b-84c0-dc2799cc876d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://13acdb9a-0ab3-4415-90f9-18fef5302df3",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 245,
+      "width" : 245,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://401b47b1-4ffa-44f1-8af1-3b5d8a7f935a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/dressing-dataset/images/Sneaker/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/dressing-dataset/images/Sneaker",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 245,
+          "width" : 245
+        },
+        "on" : "http://13acdb9a-0ab3-4415-90f9-18fef5302df3"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
