@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/dressing-dataset/manifests/Dress.json",
+  "@type" : "sc:Manifest",
+  "label" : "Dress",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Dress]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Samira",
+  "sequences" : [ {
+    "@id" : "http://eb7f7e53-96ab-4a5c-a3d7-aa360ec23752",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b294095e-e782-4da3-afb2-78a64d168317",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1280,
+      "width" : 960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://05bfe5b1-14bd-427d-bcd1-f30883c522a7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/dressing-dataset/images/Dress/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/dressing-dataset/images/Dress",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1280,
+          "width" : 960
+        },
+        "on" : "http://b294095e-e782-4da3-afb2-78a64d168317"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
