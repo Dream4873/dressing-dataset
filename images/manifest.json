@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://Dream4873.github.io/dressing-dataset/images/Coat/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Coat"
+                ]
+            },
+            "height": 615,
+            "width": 466,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/dressing-dataset/images/Coat/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/dressing-dataset/images/Coat/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/dressing-dataset/images/Coat/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 15,
+                                                "height": 20
+                                            },
+                                            {
+                                                "width": 30,
+                                                "height": 39
+                                            },
+                                            {
+                                                "width": 59,
+                                                "height": 77
+                                            },
+                                            {
+                                                "width": 117,
+                                                "height": 154
+                                            },
+                                            {
+                                                "width": 233,
+                                                "height": 308
+                                            },
+                                            {
+                                                "width": 466,
+                                                "height": 615
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 466,
+                                        "@id": "https://Dream4873.github.io/dressing-dataset/images/Coat",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 615,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/dressing-dataset/images/Coat/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://Dream4873.github.io/dressing-dataset/images/T-shirt/canvas/",
             "type": "Canvas",
             "label": {
