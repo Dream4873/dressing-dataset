@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 8,
+    "height" : 8
+  }, {
+    "width" : 16,
+    "height" : 16
+  }, {
+    "width" : 31,
+    "height" : 31
+  }, {
+    "width" : 62,
+    "height" : 62
+  }, {
+    "width" : 123,
+    "height" : 123
+  }, {
+    "width" : 245,
+    "height" : 245
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 245,
+  "@id" : "https://Dream4873.github.io/dressing-dataset/images/Sneaker",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 245
+}
