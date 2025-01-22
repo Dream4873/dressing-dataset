@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 44,
+    "height" : 44
+  }, {
+    "width" : 88,
+    "height" : 88
+  }, {
+    "width" : 175,
+    "height" : 175
+  }, {
+    "width" : 350,
+    "height" : 350
+  }, {
+    "width" : 700,
+    "height" : 700
+  }, {
+    "width" : 1400,
+    "height" : 1400
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1400,
+  "@id" : "https://Dream4873.github.io/dressing-dataset/images/Shirt",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1400
+}
